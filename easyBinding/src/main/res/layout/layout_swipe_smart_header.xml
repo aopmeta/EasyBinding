@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.scwang.smart.refresh.header.ClassicsHeader
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:srlAccentColor="@color/colorGray"
+    app:srlDrawableArrow="@drawable/ic_arrow_down"
+    app:srlDrawableMarginRight="10dp"
+    app:srlDrawableProgress="@drawable/ic_loading"
+    app:srlDrawableProgressSize="14dp"
+    app:srlEnableLastTime="false"
+    app:srlTextFailed="更新失败"
+    app:srlTextFinish="更新成功"
+    app:srlTextPulling="下拉更新"
+    app:srlTextRefreshing="更新中..."
+    app:srlTextRelease="松开更新"/>

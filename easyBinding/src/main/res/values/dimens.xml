@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small">4dp</dimen>
+    <dimen name="small_than">6dp</dimen>
+    <dimen name="base">8dp</dimen>
+    <dimen name="base_than">10dp</dimen>
+    <dimen name="heavy">12dp</dimen>
+    <dimen name="double_base">16dp</dimen>
+    <dimen name="big">24dp</dimen>
+
+    <dimen name="micro_text_size">10sp</dimen>
+    <dimen name="micro_than_text_size">12sp</dimen>
+    <dimen name="small_less_text_size">13sp</dimen>
+    <dimen name="small_text_size">14sp</dimen>
+    <dimen name="base_text_size">16sp</dimen>
+    <dimen name="heavy_text_size">18sp</dimen>
+    <dimen name="big_text_size">24sp</dimen>
+</resources>
