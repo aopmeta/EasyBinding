@@ -3,6 +3,7 @@
 通过该框架可实现view层的视图与viewModel层的get/is方法进行绑定，绑定后可在viewModel层直接调用notifyPropertyChanged方法通知视图做更新，或通过putNotifyLiveData将LiveData与get/is方法对应的枚举值进行绑定，进而实现LiveData数据更新后视图也随之更新。
 
 该框架基于MVVM数据驱动的原理，主要利用apt技术解析@Binding注解，生成类似databinding的BR类和一些辅助类，从而帮助框架自动包装和关联需要被绑定的get/is方法，实现view-BR枚举类-get/is方法三者的关联关系，最终达到发送BR枚举类更新的通知后，自动调用get/is方法拿到最新值，并找到相应的view进行赋值。
+具体搭建步骤详见[https://aopmeta.com/articles/220501.html](https://aopmeta.com/articles/220501.html)
 
 使用方法
 
